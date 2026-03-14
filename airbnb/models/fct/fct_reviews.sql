@@ -1,3 +1,4 @@
+-- This part adds in a config to say that it is for an incremental change and only if there is no schema change
 {{
   config(
     materialized = 'incremental',
